@@ -8,7 +8,7 @@ Thumbs.db
 # Ignora directorios generados por herramientas de construcción
 node_modules/
 dist/
-build/
+
 vendor/
 
 # Ignora archivos de dependencias de desarrollo
