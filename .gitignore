@@ -1,0 +1,39 @@
+# Ignora archivos y directorios generados por el sistema operativo
+.DS_Store
+Thumbs.db
+
+# Ignora archivos de configuración locales
+.env
+
+# Ignora directorios generados por herramientas de construcción
+node_modules/
+dist/
+build/
+vendor/
+
+# Ignora archivos de dependencias de desarrollo
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignora archivos de registro
+logs/
+*.log
+
+# Ignora archivos temporales
+*.swp
+
+# Ignora archivos de configuración personal
+.vscode/
+.idea/
+*.iml
+
+# Ignora archivos de caché y compilación
+.cache/
+*.class
+*.jar
+
+# Ignora archivos de respaldo
+*~
+# Igualmente, ignora archivos específicos
+/config/myconfig.json
